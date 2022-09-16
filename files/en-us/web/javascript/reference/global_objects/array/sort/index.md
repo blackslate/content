@@ -78,7 +78,7 @@ elements are sorted according to the return value of the compare function (all
 | < 0                            | sort `a` before `b`                |
 | === 0                          | keep original order of `a` and `b` |
 
-So, the compare function has the following form:
+So, the compare function has the following form (_pseudocode_):
 
 ```js
 function compareFn(a, b) {
